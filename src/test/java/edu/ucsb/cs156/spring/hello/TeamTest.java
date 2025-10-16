@@ -58,6 +58,26 @@ public class TeamTest {
     }
 
     @Test
+    public void equals_test_case3_3() {
+        Team team1 = new Team("lol");
+        team1.addMember("sam");
+        Team team2 = new Team("lol");
+        team1.addMember("tom");
+        //Team team2 = new Team("jol", List.of("Sam", "Tom"));
+        assertFalse(team1.equals(team2), "Different object with diff attributes return false");
+    }
+
+    // @Test
+    // public void equals_test_case3_4() {
+    //     Team team1 = new Team("lol");
+    //     team1.addMember("sam")
+    //     Team team2 = new Team("loll");
+    //     team1.addMember("sam")
+    //     //Team team2 = new Team("jol", List.of("Sam", "Tom"));
+    //     assertFalse(team1.equals(team2), "Different object with diff attributes return false");
+    // }
+
+    @Test
     public void hashCode_equals() {
         Team t1 = new Team();
         t1.setName("foo");
