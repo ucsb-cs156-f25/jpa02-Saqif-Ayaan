@@ -2,7 +2,7 @@
 
 Repo: https://github.com/ucsb-cs156-f25/jpa02-Saqif-Ayaan/tree/main
 
-Deployed at: https://jpa02-saqif-ayaan.dokku-16.cs.ucsb.edu/info
+Deployed at: https://jpa02-saqif-ayaan.dokku-16.cs.ucsb.edu
 
 
 # About this repo
